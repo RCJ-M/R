@@ -1,6 +1,7 @@
 package test;
 
 import com.yudian.bo.CurdBo;
+import com.yudian.model.StuBasicInfo;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -11,8 +12,13 @@ public class test {
     public static void main(String[] args) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-config.xml");
         CurdBo curdBo = (CurdBo) applicationContext.getBean("curdBo");
-        Boolean b=curdBo.find("rcj", "123456");
+       /* Boolean b=curdBo.find("rcj", "123456");
         System.out.println(b);
+*/
+
+        StuBasicInfo stuBasicInfo = curdBo.findStuBasicInfo("131003320140");
+        System.out.println(stuBasicInfo);
+
     }
 
 }
