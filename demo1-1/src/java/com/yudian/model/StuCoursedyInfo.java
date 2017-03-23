@@ -1,8 +1,6 @@
 package com.yudian.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Created by yudian-it on 2017/3/22.
@@ -10,7 +8,10 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "stu_course_info")
 public class StuCoursedyInfo {
+
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private  Integer id;//序号，生成主键用
     private String stuId;//学生id
     private String courseId;//课程id
 

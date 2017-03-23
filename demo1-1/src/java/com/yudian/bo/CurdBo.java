@@ -11,5 +11,5 @@ import java.util.List;
 public interface CurdBo {
     Boolean find(String name,String password);//用户登录验证
     StuBasicInfo findStuBasicInfo(String id);//通过学号查找学生的基本（个人）信息
-    List<StuCoursedyInfo> showCourseInfo();//此方法的功能为学生查看自己的课程相关信息（课程名称，成绩，绩点等）
+    List<StuCoursedyInfo> showCourseInfo(String id);//此方法的功能为学生查看自己的课程相关信息（课程名称，成绩，绩点等）
 }

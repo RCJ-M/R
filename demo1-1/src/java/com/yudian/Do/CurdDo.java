@@ -11,5 +11,5 @@ import java.util.List;
 public interface CurdDo {
     Boolean find(String name,String password);
     StuBasicInfo findStuBasicInfo(String id);
-    List<StuCoursedyInfo> showCourseInfo();
+    List<StuCoursedyInfo> showCourseInfo(String id);
 }

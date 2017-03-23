@@ -49,11 +49,10 @@ public class CurdDoImpl implements CurdDo {
         else
             return null;
     }
-    public List<StuCoursedyInfo> showCourseInfo(){
-        String stuid="a";
+    public List<StuCoursedyInfo> showCourseInfo(String id){
         String hql="from StuCoursedyInfo s where s.stuId=? ";
         Query query=sessionFactory.getCurrentSession().createQuery(hql);
-        query.setString(0,stuid);
+        query.setString(0,id);
          List<StuCoursedyInfo> list= query.list();
         return list;
     }

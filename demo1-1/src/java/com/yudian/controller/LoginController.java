@@ -56,9 +56,9 @@ public class LoginController {
     }
 
     @RequestMapping(value = "/show_course_info", method = RequestMethod.POST)
-    public String showCourseInfo(ModelMap modelMap) {
+    public String showCourseInfo(@RequestParam String id, ModelMap modelMap) {
 
-        List<StuCoursedyInfo> list=curd.showCourseInfo();
+        List<StuCoursedyInfo> list=curd.showCourseInfo(id);
         modelMap.addAttribute("list",list);
         return "stuCourseInfo";
     }

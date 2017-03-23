@@ -28,7 +28,7 @@ public class CurdBoImpl implements CurdBo {
     public StuBasicInfo findStuBasicInfo(String id) {
         return curdDo.findStuBasicInfo(id);
     }
-    public List<StuCoursedyInfo> showCourseInfo(){
-        return curdDo.showCourseInfo();
+    public List<StuCoursedyInfo> showCourseInfo(String id){
+        return curdDo.showCourseInfo(id);
     }
 }
