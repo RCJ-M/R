@@ -4,6 +4,7 @@ import com.yudian.bo.CurdBo;
 import com.yudian.model.Login;
 import com.yudian.model.StuBasicInfo;
 import com.yudian.model.StuCoursedyInfo;
+import com.yudian.model.TeacherTimeTable;
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -11,8 +12,8 @@ import org.springframework.stereotype.Controller;
 
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.context.annotation.SessionScope;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -39,7 +40,13 @@ public class LoginController {
         if (infoback != null) {
             if (infoback.equals("stu")) {
                 return "stuLoginSucess";
-            } else if (infoback.equals("teacher")) {
+            } else if (infoback.equals("teacher")) { //如果用户是教师的话，增加返回字段courseList，通过教师id查找出所有课程编号并返回
+                List courseList = new ArrayList();
+                for (TeacherTimeTable t:curd.findTimetableByTeacherId(name)) {
+                    String id=t.getId();
+                    courseList.add(id);
+                }
+                map.addAttribute("courseList", courseList);
                 return "teacherLoginSucess";
             } else if (infoback.equals("admin")) {
                 return "adminLoginSucess";
@@ -59,6 +66,11 @@ public class LoginController {
 
         if (name.equals("admin")) {
             return "adminLoginSucess";
+        }
+        else if(name.equals("teacher")){
+            return "teacherLoginSucess";
+        }else if (name.equals("student")){
+            return "stuLoginSucess";
         }
         return "sucess";
     }
@@ -118,10 +130,11 @@ public class LoginController {
      * @return
      */
     @RequestMapping(value = "/init_password", method = RequestMethod.POST)
-    public String initPassword(String userId) {
+    public String initPassword(String userId , String adminId,ModelMap map) {
         boolean b = curd.initPassword(userId);
         if (b) {
-            return "initSucess";
+            map.addAttribute("userId", adminId);
+            return "adminLoginSucess";
         }
         return "initFail";
     }

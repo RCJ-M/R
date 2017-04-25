@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -28,10 +29,12 @@ public class AddStuScoreController {
      * @return
      */
     @RequestMapping(value = "/find_all_stu", method = RequestMethod.POST)
-    public String findAllStudent(@RequestParam String courseId, ModelMap map) {
+    public String findAllStudent( String courseId, ModelMap map,String teacherId) {
 
+        System.out.println(courseId);
         List<String> list = curd.findAllStuByCourseId(courseId);
         map.addAttribute("stulist", list);
+        map.addAttribute("teacherId",teacherId);
         map.addAttribute("courseId", courseId);
         return "addScore";
     }
@@ -44,9 +47,17 @@ public class AddStuScoreController {
      */
     @RequestMapping(value = "/add_stu_score", method = RequestMethod.POST)
     public String addStuScoreController(@RequestParam(name = "score") List<String> score, @RequestParam(name = "stuId") List<String> stuId,
-                                        @RequestParam(name = "courseId") String courseId) {
+                                        @RequestParam(name = "courseId") String courseId,String teacherId,ModelMap map) {
 
+        List courseList = new ArrayList();
+        for (TeacherTimeTable t:curd.findTimetableByTeacherId(teacherId)) {
+            String id=t.getId();
+            courseList.add(id);
+        }
+        map.addAttribute("userId", teacherId);
+        map.addAttribute("courseList", courseList);
         curd.addStuScore(score, stuId, courseId);
+
 
         return "teacherLoginSucess";
     }

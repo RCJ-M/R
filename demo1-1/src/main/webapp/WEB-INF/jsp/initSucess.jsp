@@ -11,6 +11,6 @@
     <title>初始化密码成功</title>
 </head>
 <body>
-初始化成功<a href="/redirect/admin">跳转到主页面</a>
+初始化成功<a href="/redirect/admin">跳转到主页面</a>   //此页面弃用
 </body>
 </html>

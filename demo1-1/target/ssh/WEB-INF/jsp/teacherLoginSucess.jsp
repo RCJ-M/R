@@ -1,4 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: yudian-it
@@ -14,14 +15,18 @@
 </head>
 <body>
 
-请输入要添加成绩的课程ID,(从session 中获取教师的ID号,暂时使用手动添加的方式)
-
 <p>当前用户</p>
 <p>
     ${userId}
 </p>
+
+添加学生成绩，应当有一个下拉列表，里面有老师所对应的课程，选择一个课程之后弹出该门课程所对应的所有学生
 <form action="/find_all_stu" method="post">
-    课程ID：<input type="text" name="courseId"/>
+    课程ID:<form:select path="courseList" name="courseId">
+    <form:option value="NONE">请选择</form:option>
+    <form:options items="${courseList}"/>
+</form:select>
+    <input type="hidden" name="teacherId" value="${userId}">
     <%--班级ID：<form:input path="classId"/>--%>
     <input type="submit" value="提交">
 </form>
@@ -31,9 +36,8 @@
 <a href="/backView/changePaswd.jsp">修改密码:</a>
 <br/>
 
-3.查看课程表（待定选项）
+3.查看课程表
 这里应该有一个按钮，点击之后会显示出教师自己的课程表
-
 <a href="/show_timetable/${userId}">查看课程表</a>
 <br/>
 

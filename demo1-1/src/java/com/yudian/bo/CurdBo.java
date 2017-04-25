@@ -32,4 +32,5 @@ public interface CurdBo {
 
 
     List<TeacherTimeTable> findTimetableByTeacherId(String teacherId);   //根据教师id获取教师的课程表
+
 }

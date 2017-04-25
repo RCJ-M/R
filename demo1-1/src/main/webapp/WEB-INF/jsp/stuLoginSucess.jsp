@@ -22,7 +22,7 @@
 1.修改登录密码</br>
 <a href="/backView/changePaswd.jsp">修改密码:</a></br>
 
-2查看自己基本信息，这种方式就不用再填写账号了，我真的是太聪明了</br>
+2查看自己基本信息</br>
 <form action="/view_stu_info" method="post">
 <p>
     <input type="hidden"name="id" value="${userId}"/>
@@ -32,12 +32,15 @@
 
 3.查看各科成绩</br>
 <form action="show_course_info" method="post">
-    学生学号:<input type="text" name="id">
+    <input type="hidden"name="id" value="${userId}"/>
     <input type="submit" name="submit" value="查看各科成绩">
 </form>
 4.修改自己基本信息</br>
 <form action="/StuInfo" method="post">
+
+    <input type="hidden"name="id" value="${userId}"/>
     <input type="submit"value="修改基本信息">
+
 </form>
 
 5.退出登录
