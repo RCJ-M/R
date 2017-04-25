@@ -44,6 +44,7 @@
         <tr>
             <td>
                 <input type="hidden" name="courseId" value="${courseId}"/>
+                <input type="hidden" name="teacherId" VALUE="${teacherId}">
                 <input type="submit" value="提交">
             </td>
         </tr>

@@ -19,10 +19,11 @@
     ${userId}
 </p>
 
-1.初始化指定账户的密码
+1.初始化指定账户的密码(这里初始化成功后没有提示，要改善下)
 <form action="/init_password" method="post">
     初始化账号:<input type="text" name="userId">
     <input type="submit" value="提交"/>
+    <input type="hidden" name="adminId" value="${userId}">
 </form>
 2.添加学生/教师用户
 
