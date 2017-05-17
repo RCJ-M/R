@@ -1,4 +1,8 @@
 <%--<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>--%>
+<!DOCTYPE html>
+<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <%@page contentType="text/html"%>
 <%@page pageEncoding="UTF-8"%>
 <html>
@@ -8,7 +12,7 @@
 
 <form action="/login" method="post">
 
-    <table>
+    <table class="table">
         <tr>
             <td>
                账号:

@@ -1,3 +1,4 @@
+
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
@@ -7,6 +8,8 @@
   Time: 11:44
   To change this template use File | Settings | File Templates.
 --%>
+<!DOCTYPE html>
+<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page isELIgnored="false" %>
 <html>
@@ -14,36 +17,45 @@
     <title>教师登录成功页面</title>
 </head>
 <body>
-
+<h1 align="center">教师界面</h1>
+<hr>
+<div>
 <p>当前用户</p>
 <p>
     ${userId}
 </p>
+</div>
 
-添加学生成绩，应当有一个下拉列表，里面有老师所对应的课程，选择一个课程之后弹出该门课程所对应的所有学生
+
 <form action="/find_all_stu" method="post">
-    课程ID:<form:select path="courseList" name="courseId">
-    <form:option value="NONE">请选择</form:option>
+    <span class="btn btn-primary">添加学生成绩:</span><form:select path="courseList" name="courseId" class="btn btn-primary">
+    <form:option value="NONE">请选择课程ID</form:option>
     <form:options items="${courseList}"/>
 </form:select>
     <input type="hidden" name="teacherId" value="${userId}">
-    <%--班级ID：<form:input path="classId"/>--%>
-    <input type="submit" value="提交">
+    <input type="submit" value="提交"class="btn btn-primary" >
 </form>
 
-
-2.修改密码
-<a href="/backView/changePaswd.jsp">修改密码:</a>
-<br/>
-
-3.查看课程表
-这里应该有一个按钮，点击之后会显示出教师自己的课程表
+<br />
+<%--<div>
+<input type="button" onclick="location.href('/backView/changePaswd.jsp')" value="修改密码" class="btn btn-primary" style="width: 160px">
+</div>--%>
+<button onclick="location.href('/backView/changePaswd.jsp?userId=${userId}')" class="btn btn-primary" style="width: 160px">修改密码</button>
+<br />
+<br />
+<%--
 <a href="/show_timetable/${userId}">查看课程表</a>
-<br/>
-
-4.退出登录
-<a href="/index.jsp">login out</a>
-
+--%>
+<%--<div>
+<input type="button" onclick="location.href('/show_timetable/${userId}')" value="查看课程表" class="btn btn-primary" style="width: 160px">
+</div>--%>
+<button onclick="location.href('/show_timetable/${userId}')"  class="btn btn-primary" style="width: 160px">查看课程表</button>
+<%--<div>
+<input type="button" value="退出" onclick="location.href('/index.jsp')" class="btn btn-primary" style="width: 160px">
+</div>--%>
+<br />
+<br />
+<button  onclick="location.href('/index.jsp')" class="btn btn-primary" style="width: 160px">退出</button>
 </body>
 
 </html>

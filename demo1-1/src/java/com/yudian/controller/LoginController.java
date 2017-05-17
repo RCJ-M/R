@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 import org.springframework.ui.ModelMap;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -58,18 +59,25 @@ public class LoginController {
     /**
      * 路径跳转
      *
-     * @param name
+     * @param userId
      * @return
      */
-    @RequestMapping(value = "/redirect/{name}", method = RequestMethod.GET)
-    public String success(@PathVariable String name) {
+    @RequestMapping(value = "/redirect/{userId}", method = RequestMethod.GET)
+    public String success(@PathVariable String userId,ModelMap map) {
+        map.addAttribute("userId",userId);
 
-        if (name.equals("admin")) {
+        if (5==userId.length()) {
             return "adminLoginSucess";
         }
-        else if(name.equals("teacher")){
+        else if(4==userId.length()){
+            List courseList = new ArrayList();
+            for (TeacherTimeTable t:curd.findTimetableByTeacherId(userId)) {
+                String id=t.getId();
+                courseList.add(id);
+            }
+            map.addAttribute("courseList", courseList);
             return "teacherLoginSucess";
-        }else if (name.equals("student")){
+        }else if (12==userId.length()){
             return "stuLoginSucess";
         }
         return "sucess";
@@ -114,8 +122,8 @@ public class LoginController {
      * @return
      */
     @RequestMapping(value = "/change_Paswd_Stu", method = RequestMethod.POST)
-    public String changePaswdStu(@RequestParam String id, @RequestParam String passwordOld, @RequestParam String passwordNew) {
-
+    public String changePaswdStu(@RequestParam String id, @RequestParam String passwordOld, @RequestParam String passwordNew, @RequestParam String userId,ModelMap model) {
+        model.addAttribute("userId",userId);
         boolean b = curd.changePaswd(id, passwordOld, passwordNew);
         if (b) {
             return "changePaswdSeccess";
@@ -143,7 +151,7 @@ public class LoginController {
      */
     @RequestMapping(value = "/addUser",method = RequestMethod.POST)
     public String addUser(String userId){
-        if(userId.length()==4||userId.length()==12)
+        if(userId.length()==4||userId.length()==12|| !(null ==userId))
 
         {
             curd.addUser(userId);

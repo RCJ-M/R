@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
@@ -14,8 +16,8 @@
 </head>
 <body>
 
-<table bgcolor="#5f9ea0" border="1">
-    <tr bgcolor="#7fffd4">
+<table class="table">
+    <tr>
         <td>
             课程ID
         </td>

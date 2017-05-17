@@ -5,6 +5,9 @@
   Time: 17:24
   To change this template use File | Settings | File Templates.
 --%>
+<!DOCTYPE html>
+<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ page isELIgnored="false" %>
@@ -14,7 +17,7 @@
 </head>
 <body>
 
-<table bgcolor="aqua" border="1">
+<table class="table">
         <td>学号：</td>
         <td> ${user.id}</td>
     </tr>

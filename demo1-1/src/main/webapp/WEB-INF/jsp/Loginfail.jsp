@@ -11,7 +11,7 @@
     <title></title>
 </head>
 <body>
-登录失败，附上一个跳转到登录页面的链接
-<a href="/index.jsp">login out</a>
+登录失败
+<a href="/index.jsp">跳转到主页</a>
 </body>
 </html>

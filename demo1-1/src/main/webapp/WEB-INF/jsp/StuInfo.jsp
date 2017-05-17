@@ -1,4 +1,7 @@
+<!DOCTYPE html>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
 <%--
   Created by IntelliJ IDEA.
   User: yudian-it
@@ -15,7 +18,7 @@
 <body>
 
 <form:form method="post" action="/ChangeStuInfo">
-    <table bgcolor="aqua">
+    <table class="table table-condensed">
 
         <tr>
 
