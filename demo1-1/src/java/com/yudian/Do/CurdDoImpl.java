@@ -26,6 +26,9 @@ public class CurdDoImpl implements CurdDo {
     private static int TEACHER_LEN = 4;//教师用户
     private static String ADMIN = "admin";//管理员用户
 
+    @Autowired
+    SessionFactory sessionFactory;
+
     /**
      * 用户登录验证
      */
@@ -45,8 +48,7 @@ public class CurdDoImpl implements CurdDo {
         return null;
     }
 
-    @Autowired
-    SessionFactory sessionFactory;
+
 
     /**
      * 从数据库查找用户（是否存在)

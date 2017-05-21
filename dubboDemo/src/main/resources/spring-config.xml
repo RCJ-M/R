@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
        xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
-       http://code.alibabatech.com/schema/dubbo
-        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
+    <context:component-scan base-package="com.yudian"/>
+    <import resource="dataSource.xml"/>
+    <import resource="Hibernate.xml"/>
 
     <!-- 提供方应用信息，用于计算依赖关系 -->
     <!-- 提供方应用名称信息，这个相当于起一个名字，我们dubbo管理页面比较清晰是哪个应用暴露出来的 -->
@@ -16,8 +21,8 @@
     <!-- 用dubbo协议在20880端口暴露服务 -->
     <dubbo:protocol name="dubbo" port="20880" />
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="com.yudian.dubbo.api.bo.DemoService" ref="demoService"/>
+    <dubbo:service interface="com.yudian.bo.DemoService" ref="demoService"/>
     <!--注册bean 可用注解代替-->
-    <bean id="demoService" class="com.yudian.dubbo.api.service.DemoServiceImpl"/>
+    <bean id="demoService" class="com.yudian.service.DemoServiceImpl"/>
 
 </beans>

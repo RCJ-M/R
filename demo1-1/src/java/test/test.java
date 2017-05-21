@@ -1,7 +1,9 @@
 package test;
 
 import com.yudian.bo.CurdBo;
+import com.yudian.bo.DemoService;
 import com.yudian.model.StuBasicInfo;
+import com.yudian.model.User;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,14 +12,17 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class test {
     public static void main(String[] args) {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-config.xml");
-        CurdBo curdBo = (CurdBo) applicationContext.getBean("curdBo");
-       /* Boolean b=curdBo.find("rcj", "123456");
-        System.out.println(b);
-*/
+        ClassPathXmlApplicationContext classPathXmlApplicationContext=new ClassPathXmlApplicationContext("spring-config.xml");
+        classPathXmlApplicationContext.start();
+        DemoService demoService = (DemoService) classPathXmlApplicationContext.getBean("demoService");
+        String string = demoService.sayHello("我的个神啊");
+        System.out.println(string);
+        User user=demoService.findUserById(1);
+        System.out.println(user.toString());
 
-        StuBasicInfo stuBasicInfo = curdBo.findStuBasicInfo("131003320140");
-        System.out.println(stuBasicInfo);
+        while (true){                      //用来保持程序不停止，方便在dubbo-main上面显示消费者
+
+        }
 
     }
 

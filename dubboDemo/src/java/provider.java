@@ -1,3 +1,4 @@
+import com.sun.org.apache.bcel.internal.util.ClassPath;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
