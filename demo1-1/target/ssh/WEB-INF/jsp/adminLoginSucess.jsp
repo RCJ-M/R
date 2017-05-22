@@ -48,7 +48,7 @@
         }
         else {
             alert("初始化成功");
-            return false;
+            return true;
         }
     }
     function checkUser() {

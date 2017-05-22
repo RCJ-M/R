@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Spring-4.3.8.RELEASE" type="spring">
+    <properties version="4.3.8.RELEASE" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-aspects-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-context-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-aop-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-beans-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-context-support-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-core-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-instrument-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-instrument-tomcat-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-expression-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-jdbc-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-jms-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-messaging-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-orm-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-oxm-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-test-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-tx-4.3.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/commons-logging-1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/aopalliance-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
