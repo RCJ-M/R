@@ -5,50 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a974ca1-fe43-4ee4-8378-aa6863b5915e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Spring_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dubboDemo/src/java/com/yudian/model/Login.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_2_5_6_SEC03.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/com/yudian/Do/DemoServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/yudian/Do/DemoServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__org_springframework_spring_2_5_6_SEC03.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../dubboDemo/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/yudian/Do/CurdDoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/yudian/Do/CurdDoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/yudian/bo/DemoService.class" afterPath="$PROJECT_DIR$/target/classes/com/yudian/bo/DemoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test/test.class" afterPath="$PROJECT_DIR$/target/classes/test/test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh.war" afterPath="$PROJECT_DIR$/target/ssh.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/Do/CurdDo.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/Do/CurdDo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/Do/CurdDoImpl.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/Do/CurdDoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/bo/CurdBo.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/bo/CurdBo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/bo/CurdBoImpl.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/bo/CurdBoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/controller/AddStuScoreController.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/controller/AddStuScoreController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/controller/ChangeBaseInfoController.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/controller/ChangeBaseInfoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/model/Login.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/model/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/model/StuBasicInfo.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/model/StuBasicInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/model/StuCoursedyInfo.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/model/StuCoursedyInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/model/TeacherTimeTable.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/com/yudian/model/TeacherTimeTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/test/test.class" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/test/test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dubboDemo/target/classes/com/yudian/bo/DemoService.class" afterPath="$PROJECT_DIR$/../dubboDemo/target/classes/com/yudian/bo/DemoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dubboDemo/target/classes/com/yudian/model/User.class" afterPath="$PROJECT_DIR$/../dubboDemo/target/classes/com/yudian/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dubboDemo/target/classes/com/yudian/service/DemoServiceImpl.class" afterPath="$PROJECT_DIR$/../dubboDemo/target/classes/com/yudian/service/DemoServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dubboDemo/target/classes/provider.class" afterPath="$PROJECT_DIR$/../dubboDemo/target/classes/provider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/demo1_1_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_1_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo1-1.iml" afterPath="$PROJECT_DIR$/demo1-1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/yudian/Do/CurdDoImpl.java" afterPath="$PROJECT_DIR$/src/java/com/yudian/Do/CurdDoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/yudian/bo/DemoService.java" afterPath="$PROJECT_DIR$/src/java/com/yudian/bo/DemoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/test/test.java" afterPath="$PROJECT_DIR$/src/java/test/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminLoginSucess.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminLoginSucess.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/ssh/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/spring-config.xml" afterPath="$PROJECT_DIR$/target/ssh/WEB-INF/classes/spring-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dubboDemo/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../dubboDemo/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dubboDemo/dubboDemoProvider.iml" afterPath="$PROJECT_DIR$/../dubboDemo/dubboDemoProvider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dubboDemo/pom.xml" afterPath="$PROJECT_DIR$/../dubboDemo/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dubboDemo/src/java/com/yudian/bo/DemoService.java" afterPath="$PROJECT_DIR$/../dubboDemo/src/java/com/yudian/bo/DemoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dubboDemo/src/java/com/yudian/service/DemoServiceImpl.java" afterPath="$PROJECT_DIR$/../dubboDemo/src/java/com/yudian/service/DemoServiceImpl.java" />
     </list>
     <ignored path="demo1-1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,7 +32,7 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/yudian/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-858">
+            <state relative-caret-position="264">
               <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
               <folding />
             </state>
@@ -85,7 +42,7 @@
       <file leaf-file-name="adminLoginSucess.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminLoginSucess.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
+            <state relative-caret-position="663">
               <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
               <folding />
             </state>
@@ -233,8 +190,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -431,6 +386,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -440,7 +397,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubboDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../yudian-frontend-authz-mgm" />
     <property name="SearchEverywhereHistoryKey" value="org.springframework.context.annotation.ComponentScanBeanDefinitionParser&#9;PSI&#9;JAVA://org.springframework.context.annotation.ComponentScanBeanDefinitionParser&#10;save&#9;PSI&#9;JAVA://org.hibernate.Session#save&#10;upda&#9;PSI&#9;JAVA://org.hibernate.sql.Update&#10;getbir&#9;PSI&#9;JAVA://com.yudian.model.StuBasicInfo#getBirthday" />
     <property name="js-jscs-nodeInterpreter" value="D:\NodeJs\node.exe" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -1039,10 +996,10 @@
       </method>
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.App" />
-      <item index="2" class="java.lang.String" itemvalue="Application.test" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.App" />
+      <item index="3" class="java.lang.String" itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -1085,11 +1042,12 @@
       <workItem from="1495033512598" duration="255000" />
       <workItem from="1495345422835" duration="217000" />
       <workItem from="1495373567173" duration="7118000" />
+      <workItem from="1495434369066" duration="350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241355000" />
+    <option name="totallyTimeSpent" value="241705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -1097,7 +1055,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38709676" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1105,12 +1062,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17473118" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28494623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39784947" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22043702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22043702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1118,13 +1074,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19892474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19892474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38709676" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28494623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1349,7 +1307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-161">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1380,10 +1337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="e#2047#2048#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1391,7 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="78" column="56" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,7 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,7 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,25 +1380,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/yudian/Do/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/yudian/Do/DemoServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/java/test/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1468,7 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1490,7 +1427,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/yudian/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858">
+        <state relative-caret-position="264">
           <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding />
         </state>
@@ -1498,7 +1435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminLoginSucess.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
+        <state relative-caret-position="663">
           <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
           <folding />
         </state>
